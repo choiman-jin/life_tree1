@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup-style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap" rel="stylesheet">
+    <title>Sign up Page</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <div class="signup_page">
+            <h2 class="signup_main_text">Sign up</h2>
+            <div class="signup_name">
+                <label for="name">User name</label>
+                <i class="fas fa-portrait"></i>
+                <input type="text" id="name" placeholder="User name 입력">
+            </div>
+            <div class="signup_phone">
+                <label for="phone">Phone Number</label>
+                <i class="fas fa-mobile-alt"></i>
+                <input type="tel" id="phone" placeholder="Phone Number 입력" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}">
+            </div>
+            <div class="signup_email">
+                <label for="email">E-mail</label>
+                <i class="far fa-envelope"></i>
+                <input type="email" id="email" placeholder="E-mail 입력">
+            </div>
+            <div class="signup_pw">
+                <label for="pw">Password</label>
+                <i class="fas fa-unlock-alt"></i>
+                <input type="password" id="pw" placeholder="password 입력">
+            </div>
+            <div class="signup_con_pw">
+                <label for="con_pw">Confirm Password</label>
+                <i class="fas fa-unlock-alt"></i>
+                <input type="password" id="con_pw" placeholder="Confirm password 입력">
+            </div>
+            <input type="submit" value="submit" id="submit">
+        </div>
+    </form>
+</body>
+</html>
